@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Technical Post. Review of Certain Object Oriented Programming/Sinatra Terms"
-date:       2019-09-24 15:53:49 +0000
+date:       2019-09-24 11:53:50 -0400
 permalink:  technical_post_review_of_certain_object_oriented_programming_sinatra_terms
 ---
 
