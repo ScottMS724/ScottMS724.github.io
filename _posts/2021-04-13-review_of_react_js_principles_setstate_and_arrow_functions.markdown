@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Review of React/JS Principles (setState & Arrow Functions)"
-date:       2021-04-13 17:23:18 +0000
+date:       2021-04-13 13:23:18 -0400
 permalink:  review_of_react_js_principles_setstate_and_arrow_functions
 ---
 
