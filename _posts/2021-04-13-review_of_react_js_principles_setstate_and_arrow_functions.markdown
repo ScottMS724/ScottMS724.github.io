@@ -8,11 +8,15 @@ permalink:  review_of_react_js_principles_setstate_and_arrow_functions
 
 This blog post is an assignment associated with my final project assessment. I will be reviewing the concepts of setState & arrow functions. Specifically, what setState (and dispatch) does that simply declaring state (i.e. "state = ") would not, and the difference between 'this' in an arrow function and a regular function, and when you would use one over the other.
 
+
+
 setState vs. state =
 
 State is data that is modified in the component itself. Unlike a component's props, a component's state can change during the component's life. Why should the react method 'setState()' be used to update state instead of a simple declaration, i.e. 'state = '? The answer is that setState() updates the state asynchronusly, that is, it does not block the React code from continuing to execute while the state is being updated. It allows the component to finish its current task before updating the state.
 
 The other main reason to use 'setState' over a simple declaration is that 'setState' activates React's lifecycle methods. The lifecycle methods 'shouldComponentUpdate()', 'componentWillUpdate()', 'componentDidUpdate()', all depend on state being modified using 'setState()'. Changing state directly via 'state = ' does not signal to the lifecycle methods that the state has changed and that the component should re-render accordingly. React docs explicitly note that state should not be modified directly because of this reason.
+
+
 
 this' - Arrow Functions vs. Regular Functions'
 
