@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Leetcode Practice with JS - Using map."
-date:       2021-05-30 16:38:29 +0000
+date:       2021-05-30 12:38:29 -0400
 permalink:  leetcode_practice_with_js_-_using_map
 ---
 
@@ -10,7 +10,7 @@ I came up with a simple solution for a problem on leetcode.com that makes use of
 
 __________
 
-**Problem:** Given the array ` candies` and the integer `extraCandies`, where `candies[i]` represents the number of candies that the **i'th** kid has.
+**Problem:** Given the array `candies`  and the integer `extraCandies`, where `candies[i]`  represents the number of candies that the **i'th** kid has.
 
 For each kid check if there is a way to distribute `extraCandies` among the kids such that he or she can have the **greatest** number of candies among them. Notice that multiple kids can have the **greatest** number of candies.
 
